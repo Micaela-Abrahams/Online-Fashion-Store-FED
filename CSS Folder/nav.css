@@ -32,3 +32,20 @@
 .nav-item:hover::after {
     width: 100%;
 }
+
+/* Style for Search Bar */
+.search {
+    margin-right: 50px;
+}
+
+.search-box {
+    border: none;
+}
+
+.search-btn {
+    border-radius: 3px;
+    color: aliceblue;
+    background: #D57934;
+    padding: 2px 2px 2px 2px;
+    border: none;
+}

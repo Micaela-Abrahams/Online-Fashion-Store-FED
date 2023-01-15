@@ -21,7 +21,7 @@
     <nav class="navbar navbar-expand-lg navbar-light sticky-top">
 
         <!-- Brand Logo -->
-        <img src="/Assets/Logo/brand logo transparent.png" alt="brand logo" class="brand-logo" width="180px">
+        <img src="/Assets/Logo/brand logo transparent white.png" alt="brand logo" class="brand-logo" width="180px">
 
         <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent"
             aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
@@ -41,6 +41,7 @@
                         Shop
                     </a>
                     <ul class="dropdown-menu">
+                        <li><a class="dropdown-item" href="#new">New</a></li>
                         <li><a class="dropdown-item" href="#woman">Woman</a></li>
                         <li><a class="dropdown-item" href="#men">Men</a></li>
                         <li><a class="dropdown-item" href="#kids">Kids</a></li>
@@ -59,27 +60,31 @@
                 </li>
             </ul>
         </div>
+
+        <!-- Search Bar -->
+        <div class="search">
+            <input type="text" class="search-box" placeholder="Search brand, product">
+            <button class="search-btn">Search</button>
+        </div>
     </nav>
 
 
-
-
-
-    <!--Hero / Header Section -->
-    <!-- <div class="hero-section">
-        <h1 class="hero-heading">Cultured Clothing</h1>
+    <!--Hero Section -->
+    <div id="hero-section" class="text-center">
+        <img src="/Assets/Logo/brand logo transparent black.png" alt="brand logo" width="200px">
+        <h1 class="display-5 fw-bold">Cultured Clothing</h1>
+        <p class="slogan">Fashion for the Culture</p>
         <div class="col-lg-6 mx-auto">
-            <p class="lead mb-4">Quickly design and customize responsive mobile-first sites with Bootstrap, the world’s
-                most popular front-end open source toolkit, featuring Sass variables and mixins, responsive grid system,
-                extensive prebuilt components, and powerful JavaScript plugins.</p>
+            <p class="lead mb-4">We have a passion for creating beautifully crafted luxury clothing and accessories. We
+                believe that clothing should be made with love, to last a lifetime and be something that you can wear
+                with pride.</p>
             <div class="d-grid gap-2 d-sm-flex justify-content-sm-center">
-                <button type="button" class="btn btn-primary btn-lg px-4 gap-3">Shop Now</button>
+                <button type="button" class="btn btn-primary btn-lg px-4 gap-3" id="shop-button">Shop</button>
             </div>
         </div>
-    </div> -->
+    </div>
 
-
-
+    <!-- Body Content -->
 
 
 
@@ -88,27 +93,33 @@
     <footer id="footer" class="row-bg-light text-light position-relative w-100 vh100 text-shadow">
         <ul class="nav justify-content-center border-bottom pb-3 mb-3">
             <!--Icon for LinkedIn-->
-            <a href="https://www.linkedin.com/" class="linkedin" target="_blank">
-                <img class"icons" src="/Assets/Logo/LinkedIn Logo Transparent.png" alt="Linkedin Logo" width="180"> </a>
+            <a href="https://www.linkedin.com" class="linkedin" target="_blank">
+                <img class"icons" src="/Assets/Logo/LinkedIn Logo Transparent.png" alt="Linkedin Logo" width="100"> </a>
 
             <!--Icon for Facebook-->
             <a href="https://www.facebook.com/" class="facebook" target="_blank">
-                <img class"icons" src="/Assets/Logo/Facebook Logo Transparent.png" alt="facebook logo" width="180"> </a>
+                <img class"icons" src="/Assets/Logo/Facebook Logo Transparent.png" alt="facebook logo" width="100"> </a>
 
             <!--Icon for Gmail-->
             <a href="https://gmail.google.com/inbox/" class="gmail" target="_blank">
-                <img class"icons" src="/Assets/Logo/Gmail Logo Transparent.png" alt="gmail logo" width="180"> </a>
+                <img class"icons" src="/Assets/Logo/Gmail Logo Transparent.png" alt="gmail logo" width="100"> </a>
 
             <!--Icon for Twitter-->
             <a href="https://twitter.com/?lang=en-za" class="twitter" target="_blank">
-                <img class"icons" src="/Assets/Logo/Twitter Logo Transparent.png" alt="twitter logo" width="180"> </a>
+                <img class"icons" src="/Assets/Logo/Twitter Logo Transparent.png" alt="twitter logo" width="100"> </a>
             <a href="" target="_blank"></a>
         </ul>
-        <p class="text-center text-muted">© Cultured Clothing 202 </p>
+        <p class="text-center text-muted">© Cultured Clothing 2023 </p>
     </footer>
 
 
     <!-- JS Script File -->
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.6/dist/umd/popper.min.js"
+        integrity="sha384-oBqDVmMz9ATKxIep9tiCxS/Z9fNfEXiDAYTujMAeBAsjFuCZSmKbSSUnQlmh/jp3"
+        crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.min.js"
+        integrity="sha384-cuYeSxntonz0PPNlHhBs68uyIAVpIIOZZ5JqeqvYYIcEL727kskC66kF92t6Xl2V"
+        crossorigin="anonymous"></script>
 </body>
 
 </html>
