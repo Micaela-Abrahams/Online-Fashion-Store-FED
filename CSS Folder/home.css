@@ -1,6 +1,7 @@
 /* Importing the Nav.css file */
 @import 'nav.css';
 @import 'footer.css';
+@import 'about.css';
 
 
 /* Hero Section */
@@ -24,4 +25,3 @@
     transition: 0.25s;
     cursor: pointer;
 }
-
