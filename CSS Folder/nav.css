@@ -7,12 +7,22 @@
 }
 
 .navbar {
-    background-color: #07292F;
+    background-color: black;
+    height: 200px;
+}
+
+.brand-logo {
+    width: 400px;
+    height: 400px;
 }
 
 .navbar-toggler {
     color: aliceblue;
     border-color: aliceblue;
+}
+
+.nav-item {
+    font-size: 20px;
 }
 
 .nav-link {
@@ -23,7 +33,7 @@
     content: '';
     width: 0%;
     height: 2px;
-    background: #D57934;
+    background: green;
     display: block;
     margin: left;
     transition: 0.5s;
@@ -35,12 +45,25 @@
 
 /* Style for Search Bar */
 .search {
-    width: 500px;
     display: flex;
-    padding-right: 60px;
+    padding: 10px 20px;
+    border-radius: 10px;
+    background-color: gray;
+    margin-right: 300px;
+    cursor: pointer;
 }
 
-.search-box {
+.search-input {
+    border: none;
+    background-color: transparent;
+    cursor: pointer;
+}
+
+.search-input::placeholder {
+    color: lightgray
+}
+
+/* .search-box {
     width: 80%;
     height: 40px;
     padding: 10px;
@@ -49,6 +72,7 @@
     border: none;
     text-transform: capitalize;
     outline: none;
+    background-color: rgb(230, 225, 225);
 }
 
 .search-btn {
@@ -57,14 +81,14 @@
     border: none;
     outline: none;
     color: aliceblue;
-    background: #D57934;
+    background: green;
     cursor: pointer;
     text-transform: capitalize;
     font-size: 20px;
     border-top-right-radius: 10px;
     border-bottom-right-radius: 10px;
 
-}
+} */
 
 .user-icon {
     margin: -15px;
