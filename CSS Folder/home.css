@@ -16,8 +16,37 @@ body {
     clip-path: polygon(0 0, 100% 0, 100% 100%, 0 80%);
 }
 
-.carousel-item img {
+.carouselWrapper {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+/* .heroTitle {
+    color: aliceblue;
+    display: flex;
+}
+
+.productPrice {
+    background-color: black;
+} */
+
+
+/* .carousel-item img {
     display: block;
     margin-left: auto;
     margin-right: auto;
+    justify-content: center;
 }
+
+.heroTitle {
+    display: flex;
+    color: black;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.productPrice {
+    color: black;
+} */
