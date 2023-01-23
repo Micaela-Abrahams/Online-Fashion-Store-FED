@@ -19,6 +19,11 @@
     <link
         href="https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;1,100;1,300;1,400&display=swap"
         rel="stylesheet">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Orbitron:wght@400;500;600;700;800&display=swap"
+        rel="stylesheet">
 </head>
 
 <body>
@@ -74,6 +79,9 @@
             <img src="/Assets/Icons/search icon white.png" alt="search icon" width="40">
         </div>
 
+        <div class="nav-item">
+            <p> <img src="/Assets/Icons/shopping cart icon white transparent.png" alt="cart icon" width="100"></p>
+        </div>
 
     </nav>
 
@@ -99,10 +107,10 @@
         <div class="carousel-inner">
 
             <!-- Nike Air Force 1 White -->
-            <div class="carousel-item">
+            <div class="carousel-item" data-bs-interval="1500">
                 <div class="carouselWrapper">
                     <img src="/Assets/Images/Nike/Air Force 1 White.png" alt="Red Air Force 1" class="hero-image"
-                        width="500">
+                        width="550">
                     <div class="heroBackGround"></div>
                     <h1 class="heroTitle">NEW ARRIVAL <br> AIR FORCE</h1>
                     <h2 class="productPrice">ZAR 1 999.99</h2>
@@ -111,10 +119,10 @@
             </div>
 
             <!-- TAN AIR FORCE -->
-            <div class="carousel-item">
+            <div class="carousel-item" data-bs-interval="1500">
                 <div class="carouselWrapper">
-                    <img src="/Assets/Images/Nike/Air Force 1 White.png" alt="Red Air Force 1" class="hero-image"
-                        width="500">
+                    <img src="/Assets/Images/Jordan/Jordan Black.png" alt="Red Air Force 1" class="hero-image"
+                        width="550">
                     <div class="heroBackGround"></div>
                     <h1 class="heroTitle">NEW ARRIVAL <br> AIR FORCE</h1>
                     <h2 class="productPrice">ZAR 1 999.99</h2>
@@ -123,10 +131,10 @@
             </div>
 
             <!-- RED JORDAN -->
-            <div class="carousel-item">
+            <div class="carousel-item" data-bs-interval="1500">
                 <div class="carouselWrapper">
-                    <img src="/Assets/Images/Nike/Air Force 1 White.png" alt="Red Air Force 1" class="hero-image"
-                        width="500">
+                    <img src="/Assets/Images/Jordan/Jordan White.png" alt="Red Air Force 1" class="hero-image"
+                        width="550">
                     <div class="heroBackGround"></div>
                     <h1 class="heroTitle">NEW ARRIVAL <br> AIR FORCE</h1>
                     <h2 class="productPrice">ZAR 1 999.99</h2>
@@ -135,10 +143,9 @@
             </div>
 
             <!-- PUMA -->
-            <div class="carousel-item">
+            <div class="carousel-item" data-bs-interval="1500">
                 <div class="carouselWrapper">
-                    <img src="/Assets/Images/Nike/Air Force 1 White.png" alt="Red Air Force 1" class="hero-image"
-                        width="500">
+                    <img src="/Assets/Images/Jordan/Air Jordan Blue.png" alt="Red Air Force 1" class="hero-image">
                     <div class="heroBackGround"></div>
                     <h1 class="heroTitle">NEW ARRIVAL <br> AIR FORCE</h1>
                     <h2 class="productPrice">ZAR 1 999.99</h2>
@@ -147,40 +154,83 @@
             </div>
 
             <!-- WHITE JORDAN -->
-            <div class="carousel-item">
+            <div class="carousel-item" data-bs-interval="1500">
                 <div class="carouselWrapper">
-                    <img src="/Assets/Images/Nike/Air Force 1 White.png" alt="Red Air Force 1" class="hero-image"
-                        width="500">
+                    <img src="/Assets/Images/Puma/Puma White.png" alt="Red Air Force 1" class="hero-image" width="500">
                     <div class="heroBackGround"></div>
                     <h1 class="heroTitle">NEW ARRIVAL <br> AIR FORCE</h1>
                     <h2 class="productPrice">ZAR 1 999.99</h2>
                     <button class="buyBTN">BUY NOW</button>
                 </div>
             </div>
+        </div>
 
 
-            <!-- NEW ARRIVAL STICKER -->
-            <div class="carousel-item active">
-                <div class="carouselWrapper">
-                    <div class="heroBackGround"></div>
-                    <img src="/Assets/Images/New Arrival Image.png" alt="Brand Logo" width="500" height="500">
-                </div>
+        <!-- NEW ARRIVAL STICKER -->
+        <div class="carouselWrapper">
+            <div class="carousel-item active" data-bs-interval="1500">
+                <h1 class="slide-1-heading">NEW ARRIVALS</h1>
+                <!-- <img src="/Assets/Images/New Arrival Image.png" alt="" class="slide-1-heading" width="800"> -->
             </div>
         </div>
-    </div>
-    <button class="carousel-control-prev" type="button" data-bs-target="#myCarousel" data-bs-slide="prev">
-        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-        <span class="visually-hidden">Previous</span>
-    </button>
-    <button class="carousel-control-next" type="button" data-bs-target="#myCarousel" data-bs-slide="next">
-        <span class="carousel-control-next-icon" aria-hidden="true"></span>
-        <span class="visually-hidden">Next</span>
-    </button>
+
+
+
+        <button class="carousel-control-prev" type="button" data-bs-target="#myCarousel" data-bs-slide="prev">
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Previous</span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#myCarousel" data-bs-slide="next">
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Next</span>
+        </button>
     </div>
 
     <!-- Body Content -->
 
+    <div>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Laudantium odit magnam dignissimos labore incidunt
+            facere excepturi vitae officia, corrupti molestias ab libero commodi sed nam, dolores sint nostrum dolorum
+            assumenda.</p>
 
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Laudantium odit magnam dignissimos labore incidunt
+            facere excepturi vitae officia, corrupti molestias ab libero commodi sed nam, dolores sint nostrum dolorum
+            assumenda.</p>
+
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Laudantium odit magnam dignissimos labore incidunt
+            facere excepturi vitae officia, corrupti molestias ab libero commodi sed nam, dolores sint nostrum dolorum
+            assumenda.</p>
+
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Laudantium odit magnam dignissimos labore incidunt
+            facere excepturi vitae officia, corrupti molestias ab libero commodi sed nam, dolores sint nostrum dolorum
+            assumenda.</p>
+
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Laudantium odit magnam dignissimos labore incidunt
+            facere excepturi vitae officia, corrupti molestias ab libero commodi sed nam, dolores sint nostrum dolorum
+            assumenda.</p>
+
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Laudantium odit magnam dignissimos labore incidunt
+            facere excepturi vitae officia, corrupti molestias ab libero commodi sed nam, dolores sint nostrum dolorum
+            assumenda.</p>
+
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Laudantium odit magnam dignissimos labore incidunt
+            facere excepturi vitae officia, corrupti molestias ab libero commodi sed nam, dolores sint nostrum dolorum
+            assumenda.</p>
+
+
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Laudantium odit magnam dignissimos labore incidunt
+            facere excepturi vitae officia, corrupti molestias ab libero commodi sed nam, dolores sint nostrum dolorum
+            assumenda.</p>
+
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Laudantium odit magnam dignissimos labore incidunt
+            facere excepturi vitae officia, corrupti molestias ab libero commodi sed nam, dolores sint nostrum dolorum
+            assumenda.</p>
+
+
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Laudantium odit magnam dignissimos labore incidunt
+            facere excepturi vitae officia, corrupti molestias ab libero commodi sed nam, dolores sint nostrum dolorum
+            assumenda.</p>
+    </div>
 
 
     <!-- Footer -->

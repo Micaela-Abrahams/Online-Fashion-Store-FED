@@ -25,10 +25,17 @@
     font-size: 20px;
 }
 
-.nav-link {
-    color: aliceblue;
+/* Style for the Cart Icon */
+.nav-item img {
+    position: absolute;
+    right: 90px;
+    top: 50px;
+    cursor: pointer;
 }
 
+
+/* Style for the nav items when user hover overs the text
+Text underlines green */
 .nav-item::after {
     content: '';
     width: 0%;
@@ -67,6 +74,8 @@
     background-color: black;
     color: white;
 }
+
+
 
 /* .search-box {
     width: 80%;
