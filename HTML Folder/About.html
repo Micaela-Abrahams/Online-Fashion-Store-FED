@@ -6,7 +6,6 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>About Page</title>
-
     <!-- Bootstrap Link -->
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css" rel="stylesheet"
         integrity="sha384-rbsA2VBKQhggwzxH7pPCaAqO46MgnOM80zW1RWuH61DGLwZJEdK2Kadq2F9CUG65" crossorigin="anonymous">
@@ -16,15 +15,21 @@
     <!-- Link for home.css file -->
     <link rel="stylesheet" href="/CSS Folder/home.css">
 
-    <!-- About CSS File -->
-    <link rel="stylesheet" href="/CSS Folder/about.css">
-
-    <!-- Google Fonts Link -->
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <!-- Google Fonts -->
     <link
         href="https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;1,100;1,300;1,400&display=swap"
         rel="stylesheet">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Orbitron:wght@400;500;600;700;800&display=swap"
+        rel="stylesheet">
+
+
+    <!-- Link for font-awesome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css"
+        integrity="sha512-MV7K8+y+gLIBoVD59lQIYicR65iaqukzvf/nwasF0nqhPay5w/9lJmVM2hMDcnK1OnMGCdVK+iQrJ7lzPJQd1w=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
 
 </head>
 
@@ -33,7 +38,7 @@
     <nav class="navbar navbar-expand-lg navbar-light sticky-top">
 
         <!-- Brand Logo -->
-        <img src="/Assets/Logo/brand logo transparent white.png" alt="brand logo" class="brand-logo" width="180px">
+        <img src="/Assets/Logo/brand logo white.png" alt="brand logo" class="brand-logo" height="200" width="200">
 
         <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent"
             aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
@@ -44,21 +49,22 @@
             <ul class="navbar-nav me-auto mb-2 mb-lg-0">
                 <li class="nav-item">
                     <a class="nav-link active" aria-current="page" href="/HTML Folder/index.html"
-                        style="color: aliceblue">HOME</a>
+                        style="color: aliceblue;">HOME</a>
                 </li>
 
                 <!-- Shop Drop Down -->
                 <li class="nav-item dropdown">
                     <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown"
                         aria-expanded="false" style="color: aliceblue">
-                        SHOP
+                        SHOP BRANDS
                     </a>
                     <ul class="dropdown-menu">
-                        <li><a class="dropdown-item" href="#new">New</a></li>
-                        <li><a class="dropdown-item" href="#woman">Woman</a></li>
-                        <li><a class="dropdown-item" href="#men">Men</a></li>
-                        <li><a class="dropdown-item" href="#kids">Kids</a></li>
-                        <li><a class="dropdown-item" href="#accessories">Accessories</a></li>
+                        <li><a class="dropdown-item" href="#new">NEW ARRIVALS</a></li>
+                        <li><a class="dropdown-item" href="#woman">NIKE</a></li>
+                        <li><a class="dropdown-item" href="#men">ADIDAS</a></li>
+                        <li><a class="dropdown-item" href="#kids">NEW BALANCE</a></li>
+                        <li><a class="dropdown-item" href="#accessories">PUMA</a></li>
+                        <li><a class="dropdown-item" href="#accessories">VANS</a></li>
                     </ul>
                 </li>
 
@@ -76,91 +82,104 @@
 
         <!-- Search Bar -->
         <div class="search">
-            <input type="text" class="search-box" placeholder="Search brand, product">
-            <button class="search-btn">Search</button>
+            <input type="text" class="input" placeholder="Search...">
+            <button class="btn">
+                <i class="fas fa-search"></i>
+            </button>
         </div>
 
-        <!-- Nav Bar Icons -->
-        <div class="nav-icons">
-            <!-- Cart Icon -->
-            <a href="#" class="cart-icon"><img src="/Assets/Icons/shopping cart icon white transparent.png"
-                    alt="cart icon" width="100"></a>
-            <!-- User Icon -->
-            <a href="#" class="user-icon"><img src="/Assets/Icons/user-icon white transparent.png" alt="user icon"
-                    width="100"></a>
+
+        <div class="shopping-cart">
+            <button class="cartBtn">
+                <i class="fas fa-shopping-cart"></i>
+            </button>
         </div>
+
     </nav>
 
-    <h1>Our Team</h1>
-    <p id="team-slogan">Diverse stories, a united vision.</p>
+    <!-- Company Info -->
+    <div class="about-container">
+        <h1>Who Are We?</h1>
+        <h2>We Are A Team Of Sneaker Enthusiasts</h2>
+    </div>
 
-    <section class="about">
-        <img src="/Assets/Images/team image 1.jpg" alt="team image" width="200">
+    <div class="founded-container">
+        <p class="founded-information">
+        <h4>FOUNDED IN 2023</h4>
+        Micaela established Dash Sneakers with a passion for sneakers and fashion. She aimed to provide a wide range of
+        unique, trendy options for customers worldwide. With determination and hard work, she overcame challenges to
+        build a successful online business, known for its stylish and affordable sneakers. Micaela handpicked a team
+        of like-minded individuals to help grow the business, and today Dash Sneakers is a leading player in the
+        online sneaker market with a loyal customer base and a reputation for staying ahead of the trends.
+        </p>
+    </div>
 
-        <p class="about-team">The team behind Cultured Clothing is a group of fashion enthusiasts who have a passion for
-            delivering
-            high-quality, stylish clothing to customers around the world. We believe that fashion should be accessible
-            to everyone, and we strive to make that a reality by offering a wide range of clothing options at affordable
-            prices. Our team is made up of experts in fashion design, sourcing, and e-commerce, and we work tirelessly
-            to bring you the latest styles and trends. We're committed to providing excellent customer service and
-            ensuring that every customer is completely satisfied with their purchase. Whether you're looking for a new
-            wardrobe staple or a statement piece, we've got you covered at Cultured Clothing.</p>
+    <div class="vision">
+        <h4 class="vision-title">VISION</h4>
+        <p class="vision-text">
+            To be the epitome of sustainable style and comfort, creating sneakers that are not only fashionable and
+            functional, but also environmentally friendly. Our aim is to revolutionize the sneaker industry by setting a
+            new standard for sustainability, and to inspire and educate consumers to make more conscious choices in
+            their footwear purchases. We envision a future where all sneaker brands prioritize sustainability and
+            contribute to a cleaner, healthier planet. As a leader in sustainable fashion, Dash Sneakers will be at the
+            forefront of this movement, always pushing the boundaries and finding new, innovative ways to minimize our
+            environmental impact.
+        </p>
+    </div>
 
-        <div class="container">
-            <div class="card">
-                <h3>Mission</h3>
-                <p>Our mission at Cultured Clothing is to provide our customers with a wide range of high-quality,
-                    fashionable clothing at affordable prices. We strive to make fashion accessible to everyone,
-                    regardless of their budget. We are dedicated to offering a diverse selection of styles and trends,
-                    and to constantly updating our inventory to reflect the latest fashion trends. Our goal is to create
-                    a seamless and enjoyable shopping experience for our customers, and to provide exceptional customer
-                    service. We believe that fashion should be a form of self-expression and we are committed to
-                    empowering our customers to express themselves through the clothing they wear.</p>
-            </div>
-
-
-
-            <div class="card">
-                <h3>Vision</h3>
-                <p>Our vision at Cultured Clothing is to be the go-to destination for affordable, fashionable clothing
-                    online. We aim to be a global leader in e-commerce fashion, known for our wide range of styles and
-                    on-trend clothing options. We want to create a community of fashion-savvy customers who trust and
-                    rely on us for all their clothing needs. We strive to create a customer-centric experience, where
-                    customer satisfaction is our top priority. Our vision is to empower our customers to express
-                    themselves through fashion, and to make the latest styles accessible to everyone. We believe in
-                    promoting sustainable fashion and continuously working towards reducing our environmental impact.
-                    Our vision is to be a one-stop-shop for all fashion enthusiasts, and to continuously evolve as the
-                    fashion industry does.</p>
-            </div>
-
-
-
-
-        </div>
-
-
-
-    </section>
+    <div class="mission">
+        <h4 class="mission-title">MISSION</h4>
+        <p class="mission-text">
+            Our mission at Dash Sneakers is to provide stylish, high-quality sneakers that are made from sustainable
+            materials and produced in a responsible and eco-friendly manner. We aim to educate and inspire our customers
+            to adopt sustainable practices in their own lives, and to continuously strive for greater sustainability in
+            all aspects of our business. By incorporating sustainable practices into every aspect of our operations, we
+            hope to set a positive example for other businesses to follow and help build a more sustainable future for
+            us all.
+        </p>
+    </div>
 
 
     <!-- Footer -->
-    <footer id="footer" class="row-bg-light text-light position-relative w-100 vh100 text-shadow">
-        <ul class="nav justify-content-center border-bottom pb-3 mb-3">
+    <footer class="footer">
+        <div class="container">
+            <div class="row">
+                <div class="footer-col">
+                    <h4>company</h4>
+                    <ul>
+                        <li><a href="#">about us</a></li>
+                        <li><a href="#">the team</a></li>
+                    </ul>
+                </div>
+                <div class="footer-col">
+                    <h4>get help</h4>
+                    <ul>
+                        <li><a href="#">FAQ</a></li>
+                        <li><a href="#">returns</a></li>
 
-            <!--Icon for Facebook-->
-            <a href="https://www.facebook.com/" class="facebook" target="_blank">
-                <img class"icons" src="/Assets/Logo/Facebook Logo Transparent.png" alt="facebook logo" width="100"> </a>
 
-            <!--Icon for Gmail-->
-            <a href="https://gmail.google.com/inbox/" class="gmail" target="_blank">
-                <img class"icons" src="/Assets/Logo/Gmail Logo Transparent.png" alt="gmail logo" width="100"> </a>
-
-            <!--Icon for Twitter-->
-            <a href="https://twitter.com/?lang=en-za" class="twitter" target="_blank">
-                <img class"icons" src="/Assets/Logo/Twitter Logo Transparent.png" alt="twitter logo" width="100"> </a>
-            <a href="" target="_blank"></a>
-        </ul>
-        <p class="text-center text-muted">© Cultured Clothing 2023 </p>
+                    </ul>
+                </div>
+                <div class="footer-col">
+                    <h4>Brands</h4>
+                    <ul>
+                        <li><a href="#">nike</a></li>
+                        <li><a href="#">adidas</a></li>
+                        <li><a href="#">new balance</a></li>
+                        <li><a href="#">vans</a></li>
+                    </ul>
+                </div>
+                <div class="footer-col">
+                    <h4>follow us</h4>
+                    <div class="social-links">
+                        <a href="https://www.facebook.com/login.php/"><i class="fab fa-facebook-f"></i></a>
+                        <a href="https://twitter.com/i/flow/login"><i class="fab fa-twitter"></i></a>
+                        <a href="https://www.instagram.com/"><i class="fab fa-instagram"></i></a>
+                        <a href="https://myaccount.google.com/intro/personal-info"><i class="fa fa-envelope"></i></a>
+                    </div>
+                </div>
+            </div>
+        </div>
     </footer>
 
 
@@ -171,6 +190,9 @@
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.min.js"
         integrity="sha384-cuYeSxntonz0PPNlHhBs68uyIAVpIIOZZ5JqeqvYYIcEL727kskC66kF92t6Xl2V"
         crossorigin="anonymous"></script>
+
+    <!-- nav.js script -->
+    <script src="/JS Folder/nav.js"></script>
 </body>
 
 </html>
