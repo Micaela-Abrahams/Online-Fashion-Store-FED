@@ -24,6 +24,12 @@
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Orbitron:wght@400;500;600;700;800&display=swap"
         rel="stylesheet">
+
+
+    <!-- Link for font-awesome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css"
+        integrity="sha512-MV7K8+y+gLIBoVD59lQIYicR65iaqukzvf/nwasF0nqhPay5w/9lJmVM2hMDcnK1OnMGCdVK+iQrJ7lzPJQd1w=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
 </head>
 
 <body>
@@ -55,7 +61,7 @@
                         <li><a class="dropdown-item" href="#new">NEW ARRIVALS</a></li>
                         <li><a class="dropdown-item" href="#woman">NIKE</a></li>
                         <li><a class="dropdown-item" href="#men">ADIDAS</a></li>
-                        <li><a class="dropdown-item" href="#kids">JORDAN</a></li>
+                        <li><a class="dropdown-item" href="#kids">NEW BALANCE</a></li>
                         <li><a class="dropdown-item" href="#accessories">PUMA</a></li>
                         <li><a class="dropdown-item" href="#accessories">VANS</a></li>
                     </ul>
@@ -75,119 +81,23 @@
 
         <!-- Search Bar -->
         <div class="search">
-            <input type="text" class="search-input" placeholder="Search...">
-            <img src="/Assets/Icons/search icon white.png" alt="search icon" width="40">
+            <input type="text" class="input" placeholder="Search...">
+            <button class="btn">
+                <i class="fas fa-search"></i>
+            </button>
         </div>
 
-        <div class="nav-item">
-            <p> <img src="/Assets/Icons/shopping cart icon white transparent.png" alt="cart icon" width="100"></p>
+
+        <div class="shopping-cart">
+            <button class="cartBtn">
+                <i class="fas fa-shopping-cart"></i>
+            </button>
         </div>
 
     </nav>
 
-    <!--Hero Section -->
-    <div id="myCarousel" class="carousel slide" data-bs-ride="carousel">
-        <div class="carousel-indicators">
-            <button type="button" data-bs-target="#myCarousel" data-bs-slide-to="0" class=""
-                aria-label="Slide 1"></button>
 
-            <button type="button" data-bs-target="#myCarousel" data-bs-slide-to="1" aria-label="Slide 2"
-                class=""></button>
-
-            <button type="button" data-bs-target="#myCarousel" data-bs-slide-to="2" aria-label="Slide 3" class="active"
-                aria-current="true"></button>
-
-            <button type="button" data-bs-target="#myCarousel" data-bs-slide-to="3" class=""
-                aria-label="Slide 4"></button>
-
-            <button type="button" data-bs-target="#myCarousel" data-bs-slide-to="4" class=""
-                aria-label="Slide 5"></button>
-        </div>
-
-        <div class="carousel-inner">
-
-            <!-- Nike Air Force 1 White -->
-            <div class="carousel-item" data-bs-interval="1500">
-                <div class="carouselWrapper">
-                    <img src="/Assets/Images/Nike/Air Force 1 White.png" alt="Red Air Force 1" class="hero-image"
-                        width="550">
-                    <div class="heroBackGround"></div>
-                    <h1 class="heroTitle">NEW ARRIVAL <br> AIR FORCE</h1>
-                    <h2 class="productPrice">ZAR 1 999.99</h2>
-                    <button class="buyBTN">BUY NOW</button>
-                </div>
-            </div>
-
-            <!-- TAN AIR FORCE -->
-            <div class="carousel-item" data-bs-interval="1500">
-                <div class="carouselWrapper">
-                    <img src="/Assets/Images/Jordan/Jordan Black.png" alt="Red Air Force 1" class="hero-image"
-                        width="550">
-                    <div class="heroBackGround"></div>
-                    <h1 class="heroTitle">NEW ARRIVAL <br> AIR FORCE</h1>
-                    <h2 class="productPrice">ZAR 1 999.99</h2>
-                    <button class="buyBTN">BUY NOW</button>
-                </div>
-            </div>
-
-            <!-- RED JORDAN -->
-            <div class="carousel-item" data-bs-interval="1500">
-                <div class="carouselWrapper">
-                    <img src="/Assets/Images/Jordan/Jordan White.png" alt="Red Air Force 1" class="hero-image"
-                        width="550">
-                    <div class="heroBackGround"></div>
-                    <h1 class="heroTitle">NEW ARRIVAL <br> AIR FORCE</h1>
-                    <h2 class="productPrice">ZAR 1 999.99</h2>
-                    <button class="buyBTN">BUY NOW</button>
-                </div>
-            </div>
-
-            <!-- PUMA -->
-            <div class="carousel-item" data-bs-interval="1500">
-                <div class="carouselWrapper">
-                    <img src="/Assets/Images/Jordan/Air Jordan Blue.png" alt="Red Air Force 1" class="hero-image">
-                    <div class="heroBackGround"></div>
-                    <h1 class="heroTitle">NEW ARRIVAL <br> AIR FORCE</h1>
-                    <h2 class="productPrice">ZAR 1 999.99</h2>
-                    <button class="buyBTN">BUY NOW</button>
-                </div>
-            </div>
-
-            <!-- WHITE JORDAN -->
-            <div class="carousel-item" data-bs-interval="1500">
-                <div class="carouselWrapper">
-                    <img src="/Assets/Images/Puma/Puma White.png" alt="Red Air Force 1" class="hero-image" width="500">
-                    <div class="heroBackGround"></div>
-                    <h1 class="heroTitle">NEW ARRIVAL <br> AIR FORCE</h1>
-                    <h2 class="productPrice">ZAR 1 999.99</h2>
-                    <button class="buyBTN">BUY NOW</button>
-                </div>
-            </div>
-        </div>
-
-
-        <!-- NEW ARRIVAL STICKER -->
-        <div class="carouselWrapper">
-            <div class="carousel-item active" data-bs-interval="1500">
-                <h1 class="slide-1-heading">NEW ARRIVALS</h1>
-                <!-- <img src="/Assets/Images/New Arrival Image.png" alt="" class="slide-1-heading" width="800"> -->
-            </div>
-        </div>
-
-
-
-        <button class="carousel-control-prev" type="button" data-bs-target="#myCarousel" data-bs-slide="prev">
-            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-            <span class="visually-hidden">Previous</span>
-        </button>
-        <button class="carousel-control-next" type="button" data-bs-target="#myCarousel" data-bs-slide="next">
-            <span class="carousel-control-next-icon" aria-hidden="true"></span>
-            <span class="visually-hidden">Next</span>
-        </button>
-    </div>
-
-    <!-- Body Content -->
-
+    <!-- New Arrivals -->
     <div>
         <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Laudantium odit magnam dignissimos labore incidunt
             facere excepturi vitae officia, corrupti molestias ab libero commodi sed nam, dolores sint nostrum dolorum
@@ -232,25 +142,46 @@
             assumenda.</p>
     </div>
 
-
     <!-- Footer -->
-    <footer id="footer" class="row-bg-light text-light position-relative w-100 vh100 text-shadow">
-        <ul class="nav justify-content-center border-bottom pb-3 mb-3">
+    <footer class="footer">
+        <div class="container">
+            <div class="row">
+                <div class="footer-col">
+                    <h4>company</h4>
+                    <ul>
+                        <li><a href="#">about us</a></li>
+                        <li><a href="#">the team</a></li>
+                    </ul>
+                </div>
+                <div class="footer-col">
+                    <h4>get help</h4>
+                    <ul>
+                        <li><a href="#">FAQ</a></li>
+                        <li><a href="#">returns</a></li>
 
-            <!--Icon for Facebook-->
-            <a href="https://www.facebook.com/" class="facebook" target="_blank">
-                <img class"icons" src="/Assets/Logo/Facebook Logo Transparent.png" alt="facebook logo" width="100"> </a>
 
-            <!--Icon for Gmail-->
-            <a href="https://gmail.google.com/inbox/" class="gmail" target="_blank">
-                <img class"icons" src="/Assets/Logo/Gmail Logo Transparent.png" alt="gmail logo" width="100"> </a>
-
-            <!--Icon for Twitter-->
-            <a href="https://twitter.com/?lang=en-za" class="twitter" target="_blank">
-                <img class"icons" src="/Assets/Logo/Twitter Logo Transparent.png" alt="twitter logo" width="100"> </a>
-            <a href="" target="_blank"></a>
-        </ul>
-        <p class="text-center text-muted">© DASH SNEAKERS 2023 </p>
+                    </ul>
+                </div>
+                <div class="footer-col">
+                    <h4>Brands</h4>
+                    <ul>
+                        <li><a href="#">nike</a></li>
+                        <li><a href="#">adidas</a></li>
+                        <li><a href="#">new balance</a></li>
+                        <li><a href="#">vans</a></li>
+                    </ul>
+                </div>
+                <div class="footer-col">
+                    <h4>follow us</h4>
+                    <div class="social-links">
+                        <a href="https://www.facebook.com/login.php/"><i class="fab fa-facebook-f"></i></a>
+                        <a href="https://twitter.com/i/flow/login"><i class="fab fa-twitter"></i></a>
+                        <a href="https://www.instagram.com/"><i class="fab fa-instagram"></i></a>
+                        <a href="https://myaccount.google.com/intro/personal-info"><i class="fa fa-envelope"></i></a>
+                    </div>
+                </div>
+            </div>
+        </div>
     </footer>
 
 
@@ -261,6 +192,9 @@
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.min.js"
         integrity="sha384-cuYeSxntonz0PPNlHhBs68uyIAVpIIOZZ5JqeqvYYIcEL727kskC66kF92t6Xl2V"
         crossorigin="anonymous"></script>
+
+    <!-- nav.js script -->
+    <script src="/JS Folder/nav.js"></script>
 </body>
 
 </html>
