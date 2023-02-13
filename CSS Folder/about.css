@@ -8,6 +8,7 @@ body {
 
 }
 
+/* Container for Large text */
 .about-container {
     margin: 30px;
 }
@@ -27,7 +28,7 @@ h2 {
     font-size: 50px;
 }
 
-
+/* Container containing Company Info */
 .founded-container {
     margin-right: 900px;
     margin-left: 30px;
@@ -37,6 +38,7 @@ h2 {
     border-radius: 10px;
 }
 
+/* Vision Div */
 .vision {
     margin-left: 900px;
     margin-right: 30px;
@@ -47,10 +49,12 @@ h2 {
     border-radius: 10px;
 }
 
+/* Vision Title */
 .vision-title {
     color: black;
 }
 
+/* Mission Div */
 .mission {
     background-color: lightgrey;
     opacity: 50%;
@@ -61,7 +65,27 @@ h2 {
     margin-top: 40px;
 }
 
+/* Mission Title */
 .mission-title {
     color: black;
     text-align: center;
+}
+
+/* Hover effects on the blocks */
+.founded-container:hover {
+    transform: scale(1.05);
+    transition: 0.5s;
+    cursor: pointer;
+}
+
+.vision:hover {
+    transform: scale(1.05);
+    transition: 0.5s;
+    cursor: pointer;
+}
+
+.mission:hover {
+    transform: scale(1.05);
+    transition: 0.5s;
+    cursor: pointer;
 }
