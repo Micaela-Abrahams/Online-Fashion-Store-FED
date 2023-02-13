@@ -11,6 +11,8 @@ body {
 /* Container for Large text */
 .about-container {
     margin: 30px;
+    animation: slide-down 3s;
+
 }
 
 h1 {
@@ -88,4 +90,46 @@ h2 {
     transform: scale(1.05);
     transition: 0.5s;
     cursor: pointer;
+}
+
+.team-title {
+    justify-content: center;
+}
+
+.team {
+    display: flex;
+    justify-content: space-around;
+    margin-top: 50px;
+    padding-bottom: 50px;
+
+}
+
+.team-title {
+    color: white;
+    font-family: 'Bebas Neue', cursive;
+    font-size: 80px;
+    margin-top: 50px;
+}
+
+label {
+    color: white;
+
+}
+
+img {
+    border-radius: 50%;
+    border-bottom: 50px;
+}
+
+
+@keyframes slide-down {
+    from {
+        margin-top: -100%;
+        width: 300%;
+    }
+
+    to {
+        margin-top: 0%;
+        width: 100%;
+    }
 }
