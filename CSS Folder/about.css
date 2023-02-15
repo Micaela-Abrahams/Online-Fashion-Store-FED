@@ -109,11 +109,11 @@ h2 {
     font-family: 'Bebas Neue', cursive;
     font-size: 80px;
     margin-top: 50px;
+    text-decoration: underline;
 }
 
 label {
     color: white;
-
 }
 
 img {

@@ -1,0 +1,86 @@
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Lato:ital,wght@0,100;0,300;0,400;0,700;1,100;1,300;1,400&display=swap');
+
+
+.contact-info {
+    text-align: right;
+    padding-right: 20%;
+    margin-top: 130px;
+}
+
+h3 {
+    font-family: 'Bebas Neue', cursive;
+    color: white;
+    font-size: 150px;
+    text-decoration: underline;
+}
+
+#form-container {
+    width: 500px;
+    height: 520px;
+    /* text-align: left; */
+    margin-left: 10%;
+    margin-top: -40%;
+    padding: 30px 30px 30px 30px;
+    background-color: white;
+
+}
+
+input {
+    width: 440px;
+    display: flex;
+    border: none;
+    background-color: lightgrey;
+    color: black;
+    padding: 10px 10px;
+    text-align: left;
+}
+
+input[type='submit'] {
+    width: 80px;
+    background-color: #e91e63;
+    padding: 5px 5px 5px 5px;
+    border-radius: 10px;
+    color: white;
+    text-align: right;
+}
+
+textarea {
+    width: 440px;
+    position: relative;
+    border: none;
+    border-radius: 10px;
+    background-color: lightgrey;
+}
+
+label {
+    color: black;
+}
+
+.disclaimer-note {
+    color: white;
+
+}
+
+.phone-label {
+    color: white;
+    font-weight: bold;
+}
+
+.email-label {
+    color: white;
+    font-weight: bold;
+}
+
+.tradingHours-label {
+    color: white;
+    font-weight: bold;
+}
+
+.contact-details label {
+    color: white;
+}
+
+.disclaimer {
+    margin-left: 800px;
+    color: white;
+}

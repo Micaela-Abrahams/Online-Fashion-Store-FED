@@ -1,0 +1,245 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact Page</title>
+    <!-- Bootstrap Link -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-rbsA2VBKQhggwzxH7pPCaAqO46MgnOM80zW1RWuH61DGLwZJEdK2Kadq2F9CUG65" crossorigin="anonymous">
+
+    <link rel="stylesheet" href="/Bootstrap/bootstrap.min.css">
+
+    <!-- Link for home.css file -->
+    <link rel="stylesheet" href="/CSS Folder/home.css">
+
+    <!-- Google Fonts -->
+    <link
+        href="https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;1,100;1,300;1,400&display=swap"
+        rel="stylesheet">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Orbitron:wght@400;500;600;700;800&display=swap"
+        rel="stylesheet">
+
+
+    <!-- Link for font-awesome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css"
+        integrity="sha512-MV7K8+y+gLIBoVD59lQIYicR65iaqukzvf/nwasF0nqhPay5w/9lJmVM2hMDcnK1OnMGCdVK+iQrJ7lzPJQd1w=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+
+<body>
+    <!-- Sticky Nav Bar -->
+    <nav class="navbar navbar-expand-lg navbar-light sticky-top">
+
+        <!-- Brand Logo -->
+        <img src="/Assets/Logo/brand logo white.png" alt="brand logo" class="brand-logo" height="200" width="200">
+
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent"
+            aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                <li class="nav-item">
+                    <a class="nav-link active" aria-current="page" href="/HTML Folder/index.html"
+                        style="color: aliceblue;">HOME</a>
+                </li>
+
+                <!-- Shop Drop Down -->
+                <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown"
+                        aria-expanded="false" style="color: aliceblue">
+                        SHOP BRANDS
+                    </a>
+                    <ul class="dropdown-menu">
+                        <li><a class="dropdown-item" href="#new">NEW ARRIVALS</a></li>
+                        <li><a class="dropdown-item" href="#woman">NIKE</a></li>
+                        <li><a class="dropdown-item" href="#men">ADIDAS</a></li>
+                        <li><a class="dropdown-item" href="#kids">NEW BALANCE</a></li>
+                        <li><a class="dropdown-item" href="#accessories">PUMA</a></li>
+                        <li><a class="dropdown-item" href="#accessories">VANS</a></li>
+                    </ul>
+                </li>
+
+                <!-- About -->
+                <li class="nav-item">
+                    <a class="nav-link" href="/HTML Folder/About.html" style="color: aliceblue">ABOUT</a>
+                </li>
+
+                <!-- Contact -->
+                <li class="nav-item">
+                    <a class="nav-link" href="#contact" style="color: aliceblue">CONTACT</a>
+                </li>
+            </ul>
+        </div>
+
+        <!-- Search Bar -->
+        <div class="search">
+            <input type="text" class="input" placeholder="Search...">
+            <button class="btn">
+                <i class="fas fa-search"></i>
+            </button>
+        </div>
+
+
+        <div class="shopping-cart">
+            <button class="cartBtn">
+                <i class="fas fa-shopping-cart"></i>
+            </button>
+        </div>
+
+    </nav>
+
+    <!-- Contact Info -->
+    <div class="contact-info">
+        <h3>Contact Us</h3>
+        <div class="contact-details">
+            <label for="phone-label" class="phone-label">Phone:</label> <label for="number">+27 21 949 1700</label><br>
+            <label for="email-label" class="email-label">Email:</label> <label
+                for="email">info@dashsneakers.com</label><br><br>
+            <label for="tradingHours-label" class="tradingHours-label">Trading Hours:</label> <br> <label for="hours">
+                <ul>Monday - Friday: 9:00am - 6:00pm</ul>
+                <ul>Saturday: 10:00am - 4:00pm</ul>
+                <ul>Sunday: Closed</ul>
+            </label>
+            <!-- Disclaimer -->
+            <div class="disclaimer">
+                <p>Please note that trading hours may vary on holidays and during special
+                    events.</p>
+                <p> Customers can also reach out to us
+                    via social media channels or through the "Contact Us" page on our website.</p>
+                <p> We are committed to
+                    providing
+                    excellent customer service and will do our best to respond to all inquiries within 24 hours.</p>
+            </div>
+        </div>
+    </div>
+
+    </div>
+
+
+
+    <!--Contact Form  -->
+    <form action="" id="form-container">
+
+        <label for="firtName">Name:</label>
+        <input type="text" name="firstName" placeholder="Enter your name" required><br>
+
+        <label for="lastName">Surname:</label>
+        <input type="text" name="lastName" placeholder="Enter your surname" required><br>
+
+        <label for="email">Email:</label>
+        <input type="email" name="email" id="email" placeholder="Enter your email address" required><br>
+
+        <label for="questions">Got A Question?</label><br>
+        <textarea id="other" name="other"></textarea><br />
+
+        <input type="submit" value="Submit">
+
+    </form>
+
+    <p>
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Earum, recusandae necessitatibus dicta adipisci fugiat
+        magnam porro facere ipsum qui molestiae tenetur repellendus nisi sapiente fuga! Odio dolorem laborum libero est,
+        earum distinctio omnis vel quisquam dolores consequatur officia soluta pariatur architecto reprehenderit
+        necessitatibus blanditiis iure quasi, laboriosam fugiat suscipit dolorum illo. Voluptatem, accusamus deleniti
+        odit, ipsum numquam facilis ut, nulla quos temporibus doloremque sapiente quis quod! Ad laborum sit optio ut
+        excepturi cumque maiores quod consectetur, aut distinctio deserunt neque repudiandae fuga facilis. Accusamus
+        excepturi magni omnis est illum veniam laboriosam ipsam consequatur sit minima voluptate odio doloremque sint
+        nobis minus ratione fugit adipisci sequi, iusto hic voluptas cum. Porro nihil corrupti magni laborum in,
+        inventore, est quasi consequatur accusamus repellat officiis quae hic facere quaerat placeat, provident commodi.
+        Aspernatur deserunt mollitia pariatur ex provident. Atque rerum adipisci nulla deleniti sapiente mollitia nemo
+        quam officiis voluptatem id odit, eaque recusandae dolorum facere animi totam, pariatur ullam autem, corporis
+        maxime dolor accusamus laboriosam quisquam impedit. Consequatur eaque mollitia, quasi ratione rem quibusdam.
+        Magni reiciendis eaque molestiae minima quod ipsam amet repudiandae laudantium totam, veritatis, ad, voluptates
+        maxime! Nobis ipsa at mollitia quaerat eos nam culpa, vero fugit assumenda explicabo. Debitis eius quas sapiente
+        impedit ab nisi id nulla quibusdam quos veritatis expedita perspiciatis, commodi nemo corrupti placeat aliquam
+        amet fugit enim necessitatibus. Laudantium, nisi. Modi ab quo ut assumenda itaque recusandae tempore? Tenetur ut
+        deserunt eveniet, assumenda provident tempore nobis asperiores vel voluptatem exercitationem officiis voluptates
+        labore fugit, possimus numquam nihil architecto, modi fugiat voluptas? Rerum dignissimos maiores aperiam, est
+        asperiores sit possimus a. Ipsam voluptatem cum libero distinctio dolorum! Dignissimos tenetur sit aut neque
+        similique quis voluptatem libero eos nam minus voluptatum, qui iusto saepe nulla laborum quisquam molestias
+        fugiat magnam. Nihil dolor ipsa accusantium neque facere aut ex enim consectetur atque sapiente in aliquam
+        dolorum commodi, quis nesciunt cupiditate aspernatur. Animi nisi sapiente laborum eligendi quo alias
+        necessitatibus quidem laboriosam, nulla fuga cupiditate at ut molestias blanditiis excepturi dolorum nemo?
+        Facere nostrum doloremque atque consequatur commodi tempore corrupti vel eveniet, quia illum. Illum odio dolores
+        in consequuntur itaque? Soluta tempore voluptatibus incidunt maiores aliquam iste dolorem molestias. Eveniet
+        ratione vel, obcaecati id veritatis aspernatur similique nesciunt quisquam illum, esse aliquid quidem maiores
+        accusamus minus corporis magni error sunt! Repellat ut facilis, nostrum, ullam quo dolorem nam nulla doloremque
+        corrupti soluta tempora eligendi dignissimos repellendus, ipsam reiciendis qui porro. Laudantium, consectetur
+        esse? Nulla omnis doloremque vel voluptatibus quam quos illo accusamus suscipit accusantium, sed iure amet
+        aperiam facere totam, harum ipsa neque maiores a nemo, rem molestias distinctio! Suscipit nesciunt porro iste
+        possimus neque ut voluptatem accusamus? Neque dolore tenetur ipsam, error velit repellendus suscipit, dolores
+        nihil vel et ad, temporibus perspiciatis alias tempora quisquam esse recusandae quos architecto quis dicta iste
+        illo. Atque deleniti quisquam nulla hic, dignissimos magni vitae maiores iste laborum facere officiis eligendi
+        alias repellendus. Eos facere, assumenda eaque quo quia repellendus. Debitis id amet eius aperiam ea sit ullam
+        corporis, est neque assumenda, aspernatur quam.
+    </p>
+
+
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="row">
+                <div class="footer-col">
+                    <h4>company</h4>
+                    <ul>
+                        <li><a href="/HTML Folder/About.html">about us</a></li>
+                        <li><a href="#team-title">the team</a></li>
+                        <li><a href="/HTML Folder/Contact.html">contact</a></li>
+                    </ul>
+                </div>
+                <div class="footer-col">
+                    <h4>get help</h4>
+                    <ul>
+                        <li><a href="#">FAQ</a></li>
+                        <li><a href="#">returns</a></li>
+
+
+                    </ul>
+                </div>
+                <div class="footer-col">
+                    <h4>Brands</h4>
+                    <ul>
+                        <li><a href="#">nike</a></li>
+                        <li><a href="#">adidas</a></li>
+                        <li><a href="#">new balance</a></li>
+                        <li><a href="#">vans</a></li>
+                    </ul>
+                </div>
+                <div class="footer-col">
+                    <h4>follow us</h4>
+                    <div class="social-links">
+                        <a href="https://www.facebook.com/login.php/"><i class="fab fa-facebook-f"></i></a>
+                        <a href="https://twitter.com/i/flow/login"><i class="fab fa-twitter"></i></a>
+                        <a href="https://www.instagram.com/"><i class="fab fa-instagram"></i></a>
+                        <a href="https://myaccount.google.com/intro/personal-info"><i class="fa fa-envelope"></i></a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <!-- JS Script File -->
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.6/dist/umd/popper.min.js"
+        integrity="sha384-oBqDVmMz9ATKxIep9tiCxS/Z9fNfEXiDAYTujMAeBAsjFuCZSmKbSSUnQlmh/jp3"
+        crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.min.js"
+        integrity="sha384-cuYeSxntonz0PPNlHhBs68uyIAVpIIOZZ5JqeqvYYIcEL727kskC66kF92t6Xl2V"
+        crossorigin="anonymous"></script>
+
+    <!-- nav.js script -->
+    <script src="/JS Folder/nav.js"></script>
+
+
+
+</body>
+
+</html>
