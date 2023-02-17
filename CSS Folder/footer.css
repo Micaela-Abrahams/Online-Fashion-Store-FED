@@ -28,7 +28,7 @@ ul {
 }
 
 .footer {
-    background-color: #24262b;
+    background-color: #1D2228;
     padding: 70px 0;
 }
 
@@ -52,7 +52,7 @@ ul {
     position: absolute;
     left: 0;
     bottom: -10px;
-    background-color: #e91e63;
+    background-color: #BCFD4C;
     height: 2px;
     box-sizing: border-box;
     width: 50px;

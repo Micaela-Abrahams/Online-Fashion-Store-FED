@@ -1,5 +1,12 @@
 @import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Lato:ital,wght@0,100;0,300;0,400;0,700;1,100;1,300;1,400&display=swap');
 
+#contact-background {
+    background-image: url(/Assets/Images/Contact\ Page\ Background.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
 .contact-info {
     text-align: right;
     padding-right: 20%;
@@ -11,17 +18,16 @@ h3 {
     color: white;
     font-size: 150px;
     text-decoration: underline;
+    animation: slide-down 3s;
 }
 
 #form-container {
     width: 500px;
-    height: 520px;
-    /* text-align: left; */
+    height: 560px;
     margin-left: 10%;
-    margin-top: -40%;
+    margin-top: -32%;
     padding: 30px 30px 30px 30px;
     background-color: white;
-
 }
 
 input {
@@ -36,7 +42,7 @@ input {
 
 input[type='submit'] {
     width: 80px;
-    background-color: #e91e63;
+    background-color: #BCFD4C;
     padding: 5px 5px 5px 5px;
     border-radius: 10px;
     color: white;
@@ -45,6 +51,7 @@ input[type='submit'] {
 
 textarea {
     width: 440px;
+    height: 100px;
     position: relative;
     border: none;
     border-radius: 10px;
@@ -82,4 +89,22 @@ label {
 .disclaimer {
     margin-left: 800px;
     color: white;
+}
+
+#map {
+    margin-left: 10%;
+    margin-top: 5%;
+    margin-bottom: 5%;
+}
+
+@keyframes slide-down {
+    from {
+        margin-top: -100%;
+        width: 300%;
+    }
+
+    to {
+        margin-top: 0%;
+        width: 100%;
+    }
 }

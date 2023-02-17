@@ -1,24 +1,24 @@
 @import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Lato:ital,wght@0,100;0,300;0,400;0,700;1,100;1,300;1,400&display=swap');
 
-body {
-    background-image: url(/Assets/Images/about\ background3.jpg);
+#about-background {
+    /* background-image: url(/Assets/Images/about\ background3.jpg);
     background-size: cover;
     background-repeat: no-repeat;
-    background-position: left;
-
+    background-position: left; */
+    background-color: #1D2228;
 }
 
 /* Container for Large text */
 .about-container {
     margin: 30px;
-    animation: slide-down 3s;
+
 }
 
 h1 {
     font-family: 'Bebas Neue', cursive;
     font-size: 200px;
     color: white;
-
+    animation: slide-down 3s;
 }
 
 h2 {
@@ -125,7 +125,7 @@ h2 {
     content: '';
     width: 0%;
     height: 2px;
-    background: #e91e63;
+    background: #BCFD4C;
     display: block;
     margin: left;
     transition: 0.5s;
