@@ -1,0 +1,51 @@
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Lato:ital,wght@0,100;0,300;0,400;0,700;1,100;1,300;1,400&display=swap');
+
+body {
+    background-image: url(/Assets/Images/FAQ\ page\ background.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.faq-title {
+    font-family: 'Bebas Neue', cursive;
+    margin-left: 50px;
+    margin-top: 20px;
+    font-size: 110px;
+    animation: slide-down 3s;
+}
+
+#questions-container {
+    margin-left: 50px;
+
+}
+
+.question {
+    color: white;
+    font-weight: bold;
+    text-decoration: underline;
+}
+
+.answer {
+    color: white;
+}
+
+.faq-disclaimer {
+    font-family: 'Bebas Neue', cursive;
+    color: white;
+    font-size: 35px;
+    margin-bottom: 50px;
+}
+
+
+@keyframes slide-down {
+    from {
+        margin-top: -100%;
+        width: 300%;
+    }
+
+    to {
+        margin-top: 0%;
+        width: 100%;
+    }
+}
