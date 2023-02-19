@@ -9,6 +9,68 @@
 
 
 /* Hero Section */
-body {
-    background-color: #E1E2E2;
+
+.hero {
+    position: relative;
+    height: 850px;
+    background-image: url('/Assets/Images/hero\ background\ image.jpg');
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.hero::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: rgba(0, 0, 0, 0.3);
+}
+
+
+.hero-content {
+    position: relative;
+    z-index: 1;
+    text-align: center;
+    color: #fff;
+}
+
+.hero h1 {
+    font-size: 4rem;
+    margin-bottom: 1rem;
+    color: white;
+}
+
+.hero p {
+    font-size: 1.5rem;
+    margin-bottom: 2rem;
+}
+
+/* a .shop-now-btn {
+    width: 180px;
+    height: 60px;
+    border: none;
+    color: white;
+    background-color: #1D2228;
+    text-decoration: none;
+} */
+
+a {
+    width: 120px;
+    padding: 10px 10px 10px 10px;
+    background-color: #1D2228;
+
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+a:hover {
+    color: white;
+    background-color: #1D2228;
+    opacity: 85%;
 }
