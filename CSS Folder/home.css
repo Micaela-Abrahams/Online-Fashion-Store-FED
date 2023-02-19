@@ -50,27 +50,15 @@
     margin-bottom: 2rem;
 }
 
-/* a .shop-now-btn {
-    width: 180px;
-    height: 60px;
-    border: none;
-    color: white;
-    background-color: #1D2228;
-    text-decoration: none;
-} */
 
 a {
-    width: 120px;
-    padding: 10px 10px 10px 10px;
-    background-color: #1D2228;
-
     color: white;
+    background-color: #1D2228;
+    padding: 15px 15px 15px 15px;
     text-decoration: none;
-    font-weight: bold;
 }
 
 a:hover {
     color: white;
-    background-color: #1D2228;
     opacity: 85%;
 }
